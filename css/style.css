@@ -6,7 +6,6 @@
 }
 
 body {
-  background-repeat: no-repeat;
   background-position: fixed;
   background-image: url(../img/background.jpg);
 }
@@ -51,6 +50,7 @@ body {
 .resume {
   color: #ccc;
   font-size: 1.5em;
+  padding: 0.5em;
 }
 
 .icon {
