@@ -22,9 +22,9 @@ body {
   align-items: center;
   justify-content: space-around;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   border-radius: 0.5em;
-  width: 40em;
+  width: 50em;
   height: 45em;
   margin: 2em;
 }
@@ -37,15 +37,8 @@ body {
   color: #ccc;
 }
 
-.about-me {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
-
 .main-info {
-  width: 50%;
+  width: 80%;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -59,22 +52,25 @@ body {
   align-items: center;
   justify-content: space-between;
   flex-direction: column;
+  border-bottom: 2.5px solid rgba(204, 204, 204, 0.7);
+  margin-bottom: 5px;
 }
 
 .photo {
   width: 50%;
-  border-radius: 1em;
+  border-radius: 50%;
 }
 
 .resume {
   color: #ccc;
   font-size: 1.5em;
-  padding: 0.5em;
+  padding: 3em;
 }
 
 .icon {
   font-size: 2.5em;
   color: #ccc;
+  margin-left: 5px;
 }
 
 .icon:hover {
