@@ -1,13 +1,13 @@
 import React from "react";
 
 import { Section, AboutMe, Article, RoundedImage, Figure } from "../../styles/InfoStyle";
-import icon from "../../assets/img/me.jpg";
+// import icon from "../../assets/img/me.jpg";
 
 const Info = () => (
   <Section>
     <AboutMe>
       <Figure>
-        <RoundedImage src={icon} alt="Just me" />
+        {/* <RoundedImage src={icon} alt="Just me" /> */} // TODO Adjust image import
       </Figure>
       <div>
         <h1>Guilherme Gules Moreira</h1>

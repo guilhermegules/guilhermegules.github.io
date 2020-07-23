@@ -1,11 +1,13 @@
 import React from "react";
+
 import { GlobalStyle } from "./styles/AppStyle";
-import MainContent from "./components/MainContent";
+
+import Navigation from "./components/Navigation";
 
 const App = () => (
   <>
     <GlobalStyle />
-    <MainContent />
+    <Navigation />
   </>
 );
 

@@ -15,13 +15,15 @@ export const NavItemList = styled.ul`
   margin: 0;
 `;
 
-export const NavItem = styled.a`
+export const NavItem = styled.li`
   margin-right: 10px;
   padding-left: 10px;
   display: flex;
   align-items: center;
   cursor: pointer;
   transition: 0.5s ease-out;
+  color: #f4f4f4;
+  text-decoration: none;
   svg {
     margin-right: 10px;
   }
