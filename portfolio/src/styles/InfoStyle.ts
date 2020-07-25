@@ -28,4 +28,6 @@ export const AboutMe = styled.div`
 export const Article = styled.article`
   display: flex;
   flex-direction: column;
+  padding: 10px;
+  width: 50%;
 `;

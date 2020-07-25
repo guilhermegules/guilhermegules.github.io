@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import background from '../assets/img/background.jpg';
 
 export const GlobalStyle = createGlobalStyle`
 body {
@@ -11,5 +12,6 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #f4f4f4;
+    background-image: url(${background});
 }
 `;

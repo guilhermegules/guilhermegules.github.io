@@ -1,5 +1,5 @@
 import React from "react";
-import { MdFace, MdCode } from "react-icons/md";
+import { FiCode, FiCoffee } from "react-icons/fi";
 import { BrowserRouter as Router, Link, Switch, Route } from "react-router-dom";
 
 import { Nav, NavItemList, NavItem } from "../../styles/NavigationStyle";
@@ -12,13 +12,13 @@ const Navigation = () => (
       <NavItemList>
         <Link to="/">
           <NavItem>
-            <MdFace />
+            <FiCoffee />
             About me
           </NavItem>
         </Link>
         <Link to="/skills">
           <NavItem>
-            <MdCode />
+            <FiCode />
             Skills
           </NavItem>
         </Link>
