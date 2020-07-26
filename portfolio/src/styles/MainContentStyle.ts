@@ -1,10 +1,13 @@
 import styled from "styled-components";
 
+import { TextColor } from './colors';
+
 export const Main = styled.main`
-    height: 90vh;
+    height: 93vh;
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: ${TextColor.BACKGROUND_COLOR};
 `;

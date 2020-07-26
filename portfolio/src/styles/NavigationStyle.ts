@@ -1,11 +1,18 @@
 import styled from "styled-components";
 
+import { TextColor } from './colors';
+
 export const Nav = styled.nav`
   display: flex;
   align-items: center;
   width: 100%;
-  height: 60px;
-  background-image: radial-gradient( circle 939px at 94.7% 50%,  rgba(0,178,169,1) 0%, rgba(0,106,101,1) 76.9% );
+  height: 7vh;
+  background: rgb(49, 176, 105);
+  background: linear-gradient(
+    100deg,
+    rgba(49, 176, 105, 1) 0%,
+    rgba(2, 143, 94, 1) 100%
+  );
 `;
 
 export const NavItemList = styled.ul`
@@ -24,13 +31,13 @@ export const NavItem = styled.li`
   display: flex;
   align-items: center;
   cursor: pointer;
-  transition: 0.5s ease-out;
-  color: #f4f4f4;
+  transition: 0.2s ease-out;
+  color: ${TextColor.PRIMARY_COLOR};
   svg {
     margin-right: 10px;
   }
   &:hover {
-    color: #ccc;
-    transition: 0.5s ease-in;
+    color: ${TextColor.NAV_HOVER_PRIMARY_COLOR};
+    transition: 0.2s ease-in;
   }
 `;

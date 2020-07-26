@@ -1,14 +1,16 @@
 import styled from "styled-components";
 
+import { TextColor } from './colors';
+
 export const Image = styled.img`
   width: 10em;
   height: 10em;
   filter: grayscale(100%);
-  transition: 0.2s;
+  transition: 0.3s ease-out;
   cursor: pointer;
   &:hover {
     filter: grayscale(0%);
-    transition: 0.2s;
+    transition: 0.3s ease-in;
   }
 `;
 
@@ -31,8 +33,8 @@ export const MainContainer = styled.section`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: rgba(0, 0, 0, 0.7);
-  height: 90vh;
+  background-color: ${TextColor.BACKGROUND_COLOR};
+  height: 93vh;
 `;
 
 export const Header = styled.header`

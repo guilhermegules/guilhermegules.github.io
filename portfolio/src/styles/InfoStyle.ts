@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import { TextColor } from './colors';
+
 export const Section = styled.section`
   margin-top: 30px;
   display: flex;
@@ -9,13 +11,13 @@ export const Section = styled.section`
 `;
 
 export const RoundedImage = styled.img`
-  width: 10em;
-  height: 10em;
+  width: 13em;
+  height: 13em;
   border-radius: 50%;
 `;
 
 export const Figure = styled.figure`
-  border-right: 1.5px solid #f4f4f4;
+  border-right: 1.5px solid ${TextColor.PRIMARY_COLOR};
   padding-right: 40px;
 `;
 
@@ -30,4 +32,7 @@ export const Article = styled.article`
   flex-direction: column;
   padding: 10px;
   width: 50%;
+  p {
+    letter-spacing: 0.2px;
+  }
 `;
