@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.js": "/static/js/main.0af8387b.chunk.js",
+    "main.js.map": "/static/js/main.0af8387b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/js/2.412642d8.chunk.js": "/static/js/2.412642d8.chunk.js",
+    "static/js/2.412642d8.chunk.js.map": "/static/js/2.412642d8.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.e53a2b2a99d6ef8ecc46d25dac5bd6e2.js": "/precache-manifest.e53a2b2a99d6ef8ecc46d25dac5bd6e2.js",
+    "service-worker.js": "/service-worker.js",
+    "static/js/2.412642d8.chunk.js.LICENSE.txt": "/static/js/2.412642d8.chunk.js.LICENSE.txt",
+    "static/media/angular.svg": "/static/media/angular.e42b15d0.svg",
+    "static/media/background.jpg": "/static/media/background.7866fa09.jpg",
+    "static/media/javascript.svg": "/static/media/javascript.e0ebd798.svg",
+    "static/media/me.jpg": "/static/media/me.f90b0ffd.jpg",
+    "static/media/nodejs.svg": "/static/media/nodejs.b337a2fb.svg",
+    "static/media/react-native.svg": "/static/media/react-native.9a63b1ac.svg",
+    "static/media/react.svg": "/static/media/react.6b592eac.svg",
+    "static/media/typescript.svg": "/static/media/typescript.42daaa9d.svg",
+    "static/media/vue-js.svg": "/static/media/vue-js.7943559e.svg",
+    "static/media/webpack.svg": "/static/media/webpack.837b970d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/js/2.412642d8.chunk.js",
+    "static/js/main.0af8387b.chunk.js"
+  ]
+}
