@@ -1,7 +1,7 @@
 ## TODO LIST
 
-- [] create layout;
-- [] add routing;
+- [x] create layout;
+- [x] add routing;
+- [x] add icons;
 - [] add route animation;
-- [] add icons;
 - [] add micro interations;
