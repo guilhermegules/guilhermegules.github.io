@@ -6,6 +6,7 @@ import {
   ImageContainer,
   Header,
   MainContainer,
+  EmojiContainer,
 } from "../../styles/SkillsStyle";
 
 const Skills = () => (
@@ -13,14 +14,14 @@ const Skills = () => (
     <Header>
       <h2>
         My skills
-        <span role="img" aria-label="nerd face emoji">
+        <EmojiContainer role="img" aria-label="nerd face emoji">
           🤓
-        </span>
+        </EmojiContainer>
       </h2>
     </Header>
     <Container>
       {skills.map((item) => (
-        <ImageContainer>
+        <ImageContainer key={item.id}>
           <a href={item.link} target="blank">
             <Image src={item.image} alt={item.title}></Image>
           </a>

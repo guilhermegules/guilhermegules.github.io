@@ -10,4 +10,8 @@ export const Main = styled.main`
     justify-content: center;
     flex-direction: column;
     background-color: ${TextColor.BACKGROUND_COLOR};
+
+  @media screen and (max-width: 340px) {
+    height: auto;
+  }
 `;

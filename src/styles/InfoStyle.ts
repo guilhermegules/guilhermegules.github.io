@@ -36,3 +36,7 @@ export const Article = styled.article`
     letter-spacing: 0.2px;
   }
 `;
+
+export const TitleContainer = styled.div`
+  padding: 10px;
+`

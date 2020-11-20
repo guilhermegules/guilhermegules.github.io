@@ -21,7 +21,7 @@ export const ImageContainer = styled.div`
   flex-direction: column;
 `;
 
-export const Container = styled.section`
+export const Container = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,10 +34,18 @@ export const MainContainer = styled.section`
   justify-content: center;
   flex-direction: column;
   background-color: ${TextColor.BACKGROUND_COLOR};
-  height: 93vh;
+  height: 98vh;
+
+  @media screen and (max-width: 665px) {
+    height: auto;
+  }
 `;
 
 export const Header = styled.header`
   text-align: center;
   margin-bottom: 1em;
+`;
+
+export const EmojiContainer = styled.span`
+  margin-left: 10px;
 `;
