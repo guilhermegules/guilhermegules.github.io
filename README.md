@@ -9,3 +9,4 @@ Web site to show my portfolio and my skills.
 - [x] add icons;
 - [] add route animation;
 - [] add micro interations;
+- [] add mobile responsiveness
