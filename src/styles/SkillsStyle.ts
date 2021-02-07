@@ -1,10 +1,10 @@
 import styled from "styled-components";
 
-import { TextColor } from './colors';
+import { Color } from "./colors";
 
 export const Image = styled.img`
-  width: 10em;
-  height: 10em;
+  width: 5em;
+  height: 5em;
   filter: grayscale(100%);
   transition: 0.3s ease-out;
   cursor: pointer;
@@ -19,13 +19,17 @@ export const ImageContainer = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
+  background-color: ${Color.LIGHT_BLACK};
+  padding: 15px;
+
+  border-radius: 15px;
 `;
 
 export const Container = styled.div`
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
 `;
 
 export const MainContainer = styled.section`
@@ -33,8 +37,8 @@ export const MainContainer = styled.section`
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: ${TextColor.BACKGROUND_COLOR};
-  height: 98vh;
+  background-color: ${Color.BACKGROUND_COLOR};
+  height: calc(100vh - 7vh);
 
   @media screen and (max-width: 665px) {
     height: auto;
@@ -44,8 +48,4 @@ export const MainContainer = styled.section`
 export const Header = styled.header`
   text-align: center;
   margin-bottom: 1em;
-`;
-
-export const EmojiContainer = styled.span`
-  margin-left: 10px;
 `;

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-import { TextColor } from './colors';
+import { Color } from "./colors";
 
 export const Section = styled.section`
   margin-top: 30px;
@@ -17,7 +17,7 @@ export const RoundedImage = styled.img`
 `;
 
 export const Figure = styled.figure`
-  border-right: 1.5px solid ${TextColor.PRIMARY_COLOR};
+  border-right: 1.5px solid ${Color.PRIMARY_COLOR};
   padding-right: 40px;
 `;
 
@@ -39,4 +39,4 @@ export const Article = styled.article`
 
 export const TitleContainer = styled.div`
   padding: 10px;
-`
+`;

@@ -1,4 +1,6 @@
 import React from "react";
+
+import EmojiContainer from "../../components/EmojiContainer";
 import { skills } from "../../assets/skills/skills";
 import {
   Container,
@@ -6,7 +8,6 @@ import {
   ImageContainer,
   Header,
   MainContainer,
-  EmojiContainer,
 } from "../../styles/SkillsStyle";
 
 const Skills = () => (
@@ -14,9 +15,7 @@ const Skills = () => (
     <Header>
       <h2>
         My skills
-        <EmojiContainer role="img" aria-label="nerd face emoji">
-          🤓
-        </EmojiContainer>
+        <EmojiContainer emoji="🤓" label="nerd face emoji" />
       </h2>
     </Header>
     <Container>
