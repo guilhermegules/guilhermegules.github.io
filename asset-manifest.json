@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/static/js/main.4cf51f57.chunk.js",
-    "main.js.map": "/static/js/main.4cf51f57.chunk.js.map",
+    "main.js": "/static/js/main.392f1d23.chunk.js",
+    "main.js.map": "/static/js/main.392f1d23.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
     "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
     "static/js/2.412642d8.chunk.js": "/static/js/2.412642d8.chunk.js",
     "static/js/2.412642d8.chunk.js.map": "/static/js/2.412642d8.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.90b0db32c28e923ba71dc6517eab9f39.js": "/precache-manifest.90b0db32c28e923ba71dc6517eab9f39.js",
+    "precache-manifest.8b96a38242ab4a88ac33c82d40dbdf28.js": "/precache-manifest.8b96a38242ab4a88ac33c82d40dbdf28.js",
     "service-worker.js": "/service-worker.js",
     "static/js/2.412642d8.chunk.js.LICENSE.txt": "/static/js/2.412642d8.chunk.js.LICENSE.txt",
-    "static/media/angular.svg": "/static/media/angular.e42b15d0.svg",
+    "static/media/angular.svg": "/static/media/angular.48ae79d9.svg",
     "static/media/background.jpg": "/static/media/background.7866fa09.jpg",
     "static/media/javascript.svg": "/static/media/javascript.e0ebd798.svg",
     "static/media/me.jpg": "/static/media/me.f90b0ffd.jpg",
@@ -24,6 +24,6 @@
   "entrypoints": [
     "static/js/runtime-main.19ccc7f6.js",
     "static/js/2.412642d8.chunk.js",
-    "static/js/main.4cf51f57.chunk.js"
+    "static/js/main.392f1d23.chunk.js"
   ]
 }
